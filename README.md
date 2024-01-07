@@ -21,7 +21,7 @@
 
 Fully responsive personal portfolio website, <br />Responsive for all devices, built using HTML, CSS, and JavaScript by [Silas Mugambi](mailto:mungiria8@mail.com).
 
-<a href="https://mugambi12.github.io/portfolio/"><strong>➥ Live Demo</strong></a>
+<a href="https://mugambi12.github.io/venter-mwongera_portfolio/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
