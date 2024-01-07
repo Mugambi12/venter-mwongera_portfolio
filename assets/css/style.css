@@ -21,6 +21,7 @@
   --midnight-blue: hsl(231, 83%, 25%);
   --minion-yellow: hsl(50, 100%, 64%);
   --independence: hsl(225, 24%, 27%);
+  --footer: hsl(0, 0%, 0%);
   --orange-soda: hsl(7, 96%, 61%);
   --space-cadet: hsl(243, 23%, 18%);
   --fiery-rose: hsl(353, 83%, 65%);
@@ -88,7 +89,7 @@
    * transition
    */
 
-  --transition-1: 0.05s ease;
+  --transition-1: 0.5s ease;
   --transition-2: 0.25s ease;
   --cubic-out: cubic-bezier(0.33, 0.85, 0.56, 1.02);
 }
@@ -101,6 +102,7 @@ body.light-mode {
   --midnight-blue: hsl(231, 83%, 75%);
   --minion-yellow: hsl(50, 100%, 36%);
   --independence: hsl(225, 24%, 73%);
+  --footer: hsl(225, 24%, 73%);
   --orange-soda: hsl(7, 96%, 39%);
   --space-cadet: hsl(243, 23%, 82%);
   --fiery-rose: hsl(353, 83%, 35%);
@@ -763,7 +765,7 @@ textarea.contact-input {
 \*-----------------------------------*/
 
 .footer {
-  background-color: var(--independence);
+  background-color: var(--footer);
   padding-block: 60px;
 }
 
@@ -806,9 +808,10 @@ textarea.contact-input {
 }
 
 /*-----------------------------------*\
-  #BACK TO TOP
+  #BACK TO TOP VERSION 1
 \*-----------------------------------*/
 
+/*-----------------------------------*\
 .back-to-top {
   color: var(--white);
   font-size: 1.3rem;
@@ -836,6 +839,40 @@ textarea.contact-input {
   width: 100px;
   height: 1px;
   background-color: var(--white);
+}
+\*-----------------------------------*/
+
+/*-----------------------------------*\
+  #BACK TO TOP VERSION 2
+\*-----------------------------------*/
+
+.back-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--klein-blue);
+  color: var(--white);
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-circle);
+  border: 3px solid;
+  border-color: var(--orange-soda);
+  transition: var(--transition-2);
+  visibility: hidden;
+  opacity: 0;
+  z-index: 4;
+}
+
+.back-top-btn:is(:hover, :focus-visible) {
+  box-shadow: var(--shadow-2);
+}
+
+.back-top-btn.active {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(-10px);
 }
 
 /*-----------------------------------*\
@@ -866,9 +903,11 @@ textarea.contact-input {
     gap: 0;
   }
 
+  /**
   #toggleMode {
     visibility: collapse;
   }
+  */
 }
 
 @media (min-width: 600px) {
