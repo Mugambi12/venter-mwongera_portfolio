@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>Venter Mwongera</title>
+
+    <!--
+        - favicon
+    -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!--
+        - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+        - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body id="top">
+    <!--
+        - #HEADER
+    -->
+
+    <header class="header" data-header>
+      <div class="container-navbar">
+        <a href="#">
+          <img class="logo" src="assets/images/logo.svg" alt="logo image" />
+        </a>
+
+        <button
+          class="nav-toggle-btn"
+          aria-label="Toggle Menu"
+          data-nav-toggle-btn
+        >
+          <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+          <ion-icon name="close-outline" class="close-icon"></ion-icon>
+        </button>
+
+        <nav class="navbar container">
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link>About</a>
+            </li>
+
+            <li>
+              <a href="#portfolio" class="navbar-link" data-nav-link
+                >Portfolio</a
+              >
+            </li>
+
+            <li>
+              <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+            </li>
+
+            <li>
+              <button
+                id="toggleModes"
+                class="navbar-link toggleModeMobile"
+                data-nav-toggler
+              >
+                <ion-icon name="sunny-outline" aria-hidden="true"></ion-icon>
+              </button>
+            </li>
+          </ul>
+        </nav>
+
+        <li>
+          <button
+            id="toggleMode"
+            class="navbar-link toggleModeDesktop"
+            data-nav-toggler
+          >
+            <ion-icon name="sunny-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </li>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!--
+            - #HERO
+        -->
+
+        <section class="hero" id="home">
+          <div class="container">
+            <div class="hero-banner">
+              <img
+                src="./assets/images/venter-00.png"
+                width="800"
+                height="864"
+                loading="lazy"
+                alt="Silas's Photo"
+                class="img-cover"
+              />
+
+              <div class="elem elem-1">
+                <p class="elem-title">19</p>
+
+                <p class="elem-text">Years of Success</p>
+              </div>
+
+              <div class="elem elem-2">
+                <p class="elem-title">150+</p>
+
+                <p class="elem-text">Projects Completed</p>
+              </div>
+
+              <div class="elem elem-3">
+                <ion-icon name="trophy"></ion-icon>
+              </div>
+
+              <img
+                src="./assets/images/bg-logo.png"
+                width="169"
+                height="172"
+                alt="I'm developer from Nairobi, Kenya"
+                class="rotate-img"
+              />
+            </div>
+
+            <div class="hero-content">
+              <p class="hero-subtitle">Hello Everyone!</p>
+              <h2 class="hero-title">
+                <span>I'm</span>
+                <strong>Venter Mwongera</strong> <br />
+                Strategic Communications Maestro
+                <span
+                  class="hero-subtitle"
+                  style="
+                    color: var(--independence);
+                    font-weight: var(--fw-100);
+                    font-size: var(--fs-7);
+                    font-style: italic;
+                  "
+                >
+                  Bridging Narratives for Social Impact
+                </span>
+              </h2>
+
+              <p class="hero-text">
+                Crafting impactful narratives for NGOs, guiding diverse
+                interactions, and inspiring support for meaningful causes
+                through two decades of journalistic expertise.
+              </p>
+
+              <div class="btn-group">
+                <a href="#contact" class="btn btn-primary blue">Get a Quote</a>
+
+                <a href="#about" class="btn">About Me</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--
+            - #ABOUT
+        -->
+
+        <section class="section about" id="about">
+          <div class="container">
+            <figure class="about-banner">
+              <img
+                src="./assets/images/venter-about-1.png"
+                width="800"
+                height="652"
+                loading="lazy"
+                alt="Silas's Photo"
+                class="img-cover"
+              />
+
+              <img
+                src="./assets/images/venter-0.png"
+                width="800"
+                height="717"
+                loading="lazy"
+                alt="Silas's Photo"
+                class="abs-img"
+              />
+
+              <div class="abs-icon abs-icon-1">
+                <ion-icon name="newspaper-outline"></ion-icon>
+              </div>
+
+              <div class="abs-icon abs-icon-2">
+                <ion-icon name="chatbubbles-outline"></ion-icon>
+              </div>
+
+              <div class="abs-icon abs-icon-3">
+                <ion-icon name="people-outline"></ion-icon>
+              </div>
+            </figure>
+
+            <div class="about-content">
+              <p class="section-subtitle">I'm a Communication Expert</p>
+
+              <h2 class="h2 section-title">
+                I Drive Initiatives that Empower and Impact Lives
+              </h2>
+
+              <p class="section-text">
+                With a rich background spanning two decades in journalism, my
+                journey has been dedicated to collaborating with NGOs. As a
+                communication expert, I've seamlessly woven impactful narratives
+                to guide through diverse interactions.
+              </p>
+
+              <p class="section-text">
+                Beyond storytelling, I've successfully led finance drives,
+                leveraging my communication skills to inspire support for
+                meaningful causes.
+              </p>
+
+              <a href="#portfolio" class="btn btn-primary blue"
+                >View Portfolio</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <!--
+            - #PORTFOLIO
+        -->
+
+        <section class="section portfolio" id="portfolio">
+          <div class="container-2">
+            <p class="section-subtitle">Portfolio</p>
+
+            <h2 class="h2 section-title">My Amazing Works</h2>
+
+            <p class="section-text">
+              Discover the depth and impact of my diverse projects, where I
+              bring ideas to life and strive for excellence in every endeavor.
+            </p>
+
+            <!-- Swiper Container -->
+            <div class="swiper-container portfolio-list">
+              <div class="swiper-wrapper">
+                <!-- Portfolio Item 1 -->
+                <div class="swiper-slide">
+                  <a
+                    href="#"
+                    class="portfolio-card"
+                    style="
+                      background-image: url('./assets/images/portfolio-1.jpg');
+                    "
+                  >
+                    <div class="card-content">
+                      <p class="card-subtitle">Impact Report</p>
+                      <h3 class="h3 card-title">
+                        Comprehensive Impact Report used for Fundraising
+                      </h3>
+                      <span class="btn-link">
+                        <span>View Report</span>
+                        <ion-icon name="arrow-forMugambi"></ion-icon>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="swiper-slide">
+                  <a
+                    href="#"
+                    class="portfolio-card"
+                    style="
+                      background-image: url('./assets/images/portfolio-2.jpg');
+                    "
+                  >
+                    <div class="card-content">
+                      <p class="card-subtitle">Campaign</p>
+                      <h3 class="h3 card-title">
+                        Sustainable Finance Communication Campaign
+                      </h3>
+                      <span class="btn-link">
+                        <span>Explore Campaign</span>
+                        <ion-icon name="arrow-forMugambi"></ion-icon>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="swiper-slide">
+                  <a
+                    href="#"
+                    class="portfolio-card"
+                    style="
+                      background-image: url('./assets/images/portfolio-3.jpg');
+                    "
+                  >
+                    <div class="card-content">
+                      <p class="card-subtitle">Data Journalism</p>
+                      <h3 class="h3 card-title">
+                        Data-Driven Series: Tackling Social Issues
+                      </h3>
+                      <span class="btn-link">
+                        <span>Discover Insights</span>
+                        <ion-icon name="arrow-forMugambi"></ion-icon>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- Portfolio Item 4 -->
+                <div class="swiper-slide">
+                  <a
+                    href="#"
+                    class="portfolio-card"
+                    style="
+                      background-image: url('./assets/images/portfolio-4.jpg');
+                    "
+                  >
+                    <div class="card-content">
+                      <p class="card-subtitle">Workshop Series</p>
+                      <h3 class="h3 card-title">
+                        Ethical Communication Virtual Workshops
+                      </h3>
+                      <span class="btn-link">
+                        <span>Join Workshops</span>
+                        <ion-icon name="arrow-forMugambi"></ion-icon>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- Portfolio Item 5 -->
+                <div class="swiper-slide">
+                  <a
+                    href="#"
+                    class="portfolio-card"
+                    style="
+                      background-image: url('./assets/images/portfolio-5.jpg');
+                    "
+                  >
+                    <div class="card-content">
+                      <p class="card-subtitle">Data Visualization</p>
+                      <h3 class="h3 card-title">
+                        Interactive Data Visualization Project
+                      </h3>
+                      <span class="btn-link">
+                        <span>Explore Visualization</span>
+                        <ion-icon name="arrow-forMugambi"></ion-icon>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- Portfolio Item 6 -->
+                <div class="swiper-slide">
+                  <a
+                    href="#"
+                    class="portfolio-card"
+                    style="
+                      background-image: url('./assets/images/portfolio-6.jpg');
+                    "
+                  >
+                    <div class="card-content">
+                      <p class="card-subtitle">Symposium</p>
+                      <h3 class="h3 card-title">
+                        Global Collaboration Symposium on XYZ Issues
+                      </h3>
+                      <span class="btn-link">
+                        <span>Join Symposium</span>
+                        <ion-icon name="arrow-forMugambi"></ion-icon>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Add navigation buttons if needed -->
+              <!--
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              -->
+            </div>
+          </div>
+        </section>
+
+        <!--
+            - #SKILLS
+        -->
+
+        <section class="section skills" id="skills">
+          <div class="container">
+            <p class="section-subtitle">My Skills</p>
+
+            <h2 class="h2 section-title">I Develop Skills Regularly</h2>
+
+            <p class="section-text">
+              Passionate journalist with two decades of NGO collaboration,
+              crafting impactful narratives and inspiring support for meaningful
+              causes.
+            </p>
+
+            <ul class="skills-list">
+              <li class="skills-item">
+                <div class="wrapper" style="width: 95%">
+                  <h3 class="skills-title">Strategic Communication</h3>
+                  <data class="skills-data" value="95">95%</data>
+                </div>
+
+                <div class="skills-progress-box">
+                  <div class="skills-progress" style="width: 95%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="wrapper" style="width: 87%">
+                  <h3 class="skills-title">Narrative Crafting</h3>
+                  <data class="skills-data" value="87">87%</data>
+                </div>
+
+                <div class="skills-progress-box">
+                  <div class="skills-progress" style="width: 87%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="wrapper" style="width: 92%">
+                  <h3 class="skills-title">Financial Advocacy</h3>
+                  <data class="skills-data" value="92">92%</data>
+                </div>
+
+                <div class="skills-progress-box">
+                  <div class="skills-progress" style="width: 92%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="wrapper" style="width: 82%">
+                  <h3 class="skills-title">Collaborative Journalism</h3>
+                  <data class="skills-data" value="82">82%</data>
+                </div>
+
+                <div class="skills-progress-box">
+                  <div class="skills-progress" style="width: 82%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="wrapper" style="width: 90%">
+                  <h3 class="skills-title">Inspiring Stakeholder Support</h3>
+                  <data class="skills-data" value="90">90%</data>
+                </div>
+
+                <div class="skills-progress-box">
+                  <div class="skills-progress" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="wrapper" style="width: 85%">
+                  <h3 class="skills-title">Media Relations</h3>
+                  <data class="skills-data" value="85">85%</data>
+                </div>
+
+                <div class="skills-progress-box">
+                  <div class="skills-progress" style="width: 85%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!--
+            - #CONTACT
+        -->
+
+        <section class="section contact" id="contact">
+          <div class="container">
+            <div class="contact-card">
+              <p class="card-subtitle">Don't be shy</p>
+
+              <h2 class="h2 section-title">Drop Me a Line</h2>
+
+              <div class="wrapper">
+                <form
+                  action="https://formspree.io/f/xjvnvzre"
+                  method="POST"
+                  class="contact-form"
+                >
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                    required
+                    class="contact-input"
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                    class="contact-input"
+                  />
+                  <textarea
+                    name="message"
+                    placeholder="Message"
+                    required
+                    class="contact-input"
+                  ></textarea>
+                  <button type="submit" class="btn-submit">
+                    Submit Message
+                  </button>
+                </form>
+
+                <ul class="contact-list">
+                  <li class="contact-item">
+                    <div class="contact-icon">
+                      <ion-icon name="location"></ion-icon>
+                    </div>
+
+                    <div>
+                      <h3 class="contact-item-title">Address</h3>
+
+                      <address class="contact-item-link">
+                        Nairobi, Kenya
+                      </address>
+                    </div>
+                  </li>
+
+                  <li class="contact-item">
+                    <div class="contact-icon">
+                      <ion-icon name="mail"></ion-icon>
+                    </div>
+
+                    <div>
+                      <h3 class="contact-item-title">Email</h3>
+
+                      <a
+                        href="mailto:nkathaventer569@mail.com"
+                        class="contact-item-link"
+                        >nkathaventer569@mail.com</a
+                      >
+                    </div>
+                  </li>
+
+                  <li class="contact-item">
+                    <div class="contact-icon">
+                      <ion-icon name="call"></ion-icon>
+                    </div>
+
+                    <div>
+                      <h3 class="contact-item-title">Phone</h3>
+
+                      <a href="tel:+254724964107" class="contact-item-link"
+                        >+254 724 964 107</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--
+            - #BLOG
+        -->
+
+        <section class="section blog" id="blog">
+          <div class="container">
+            <p class="section-subtitle">Latest Insights</p>
+
+            <h2 class="h2 section-title">Explore My Recent Articles</h2>
+
+            <p class="section-text">
+              Delve into my thoughts on strategic communication, advocacy, and
+              the art of inspiring stakeholder support through impactful
+              narrative crafting.
+            </p>
+
+            <ul class="blog-list">
+              <li>
+                <div class="blog-card">
+                  <figure class="card-banner">
+                    <a href="#">
+                      <img
+                        src="./assets/images/blog-1.jpg"
+                        width="1181"
+                        height="843"
+                        loading="lazy"
+                        alt="Exploring the Power of Strategic Communication"
+                        class="img-cover"
+                      />
+                    </a>
+                  </figure>
+
+                  <a href="#" class="card-tag">Communication Strategies</a>
+
+                  <h3 class="card-title">
+                    <a href="#"
+                      >Exploring the Power of Strategic Communication</a
+                    >
+                  </h3>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <figure class="card-banner">
+                    <a href="#">
+                      <img
+                        src="./assets/images/blog-2.jpg"
+                        width="1181"
+                        height="843"
+                        loading="lazy"
+                        alt="Advocacy in Action: Making a Difference"
+                        class="img-cover"
+                      />
+                    </a>
+                  </figure>
+
+                  <a href="#" class="card-tag">Advocacy</a>
+
+                  <h3 class="card-title">
+                    <a href="#"
+                      >Advocacy in Action: Making a Difference in the World</a
+                    >
+                  </h3>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <figure class="card-banner">
+                    <a href="#">
+                      <img
+                        src="./assets/images/blog-3.jpg"
+                        width="1181"
+                        height="843"
+                        loading="lazy"
+                        alt="Crafting Impactful Narratives for Stakeholder Support"
+                        class="img-cover"
+                      />
+                    </a>
+                  </figure>
+
+                  <a href="#" class="card-tag">Narrative Crafting</a>
+
+                  <h3 class="card-title">
+                    <a href="#"
+                      >Crafting Impactful Narratives for Stakeholder Support</a
+                    >
+                  </h3>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!--
+        - #FOOTER
+    -->
+
+    <footer class="footer">
+      <div class="container">
+        <p class="copyright">
+          &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          <a href="mailto:mungiria8@gmail.com" class="copyright-link">ApoGen</a
+          >. All Rights Reserved.
+        </p>
+
+        <ul class="footer-list">
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+
+              <span class="span">Twitter</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+
+              <span class="span">LinkedIn</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+
+              <span class="span">Instagram</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!--
+        - #BACK TO TOP
+    -->
+
+    <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+    <!-- Your existing scripts -->
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/theme_toggle.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      // Initialize Swiper
+      var swiper = new Swiper(".swiper-container", {
+        slidesPerView: 1, // Display one card at a time
+        spaceBetween: 20,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+          delay: 2500, // Auto scroll every 2.5 seconds
+        },
+        loop: true, // Enable infinite loop
+        effect: "slide", // Choose the transition effect: "slide" or "coverflow"
+        speed: 800, // Set transition speed in milliseconds (800ms in this example)
+        breakpoints: {
+          // Responsive breakpoints
+          768: {
+            slidesPerView: 1, // Display one card at a time on smaller screens
+            spaceBetween: 0,
+          },
+          1024: {
+            slidesPerView: 3, // Display three cards at a time on larger screens
+            spaceBetween: 20,
+          },
+        },
+      });
+    </script>
+
+    <!-- Ionicons JS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
